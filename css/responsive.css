@@ -15,7 +15,7 @@
     }
 }
 
-@media only screen and (max-widthg: 900px) {
+@media only screen and (max-width: 900px) {
       body {
         font-size: 85%;
       }
@@ -40,8 +40,15 @@
       }
 }
 
-@media only screen and (max-widthg: 800px){
+@media only screen and (max-width: 800px){
   #navbar nav a {
     font-size: 0.9em;
+  }
+}
+
+@media only screen and (max-width: 750px){
+  .col-1, .col-2, .col-3 {
+    width: 100%;
+    margin-left: 0;
   }
 }
